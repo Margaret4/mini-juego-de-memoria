@@ -1,0 +1,14 @@
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+    background-color: aqua;
+}
+.card{
+    /* padding: px; */
+    width: 131px;
+    max-width: 131px;
+    max-height: 131px;
+    height: 131px;
+}
