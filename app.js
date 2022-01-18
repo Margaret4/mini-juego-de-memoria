@@ -60,9 +60,9 @@ document.addEventListener('DOMContentLoaded',()=>{
         let cardId = this.id;
         let bfLength = chosenCardId.lenght;
         chosenCardId.add(cardId)
+        this.setAttribute('src', cardsArr[cardId].image)
         if(bfLength!==0  || bfLength !== chosenCardId.length){
             chosenArr.push(cardsArr[cardId]);
-            this.setAttribute('src', cardsArr[cardId].image)
             if(chosenArr.length === 2) {//se seleccionaron 2 cartas
                 checkEquals()
             }
